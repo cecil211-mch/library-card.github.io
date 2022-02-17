@@ -21,7 +21,7 @@
                 
                 border-radius: 8px;
                 width: 100px;
-                height: 100px;
+                height: 80px;
                 margin-right:12%;
                 float: left;
             }
@@ -29,7 +29,7 @@
                 border: 2px solid black;
                 border-radius: 8px;
                 width: 100px;
-                height: 100px;
+                height: 80px;
                 margin-left:12%;
                 float:left;
                 
@@ -42,14 +42,27 @@
             }
             form{
                 margin-top:15%;
+                
+            }
+            .lib{
+                margin-top:6%;
+                text-align: center; 
             }
             .main{   
-                 Width:75%;
+                 Width:60%;
                  background-color: wheat;
             }
-            hr{
+            /*hr{
+                display: block;
+                margin-top: .5em;
+                margin-bottom: 0.5em;
+                margin-right: auto;
+                border-style: inset;
+                border-width: 1px;
                 width: 40%;
-            }
+                text-align: left;
+                margin-left: 10%;
+            }*/
         </style>
 
     </head>
@@ -65,19 +78,39 @@
                     <h3><b>USER'S CARD</b></h3>
                 </div>
                 <div class="container2">
-                    <p style="text-align: center; ">PHOTO</p>
+                    <p style="vertical-align: middle; text-align: center;">PHOTO</p>
                 </div>
             </div>
             <div class="form">
                 <form>
-                    Name: <hr>
-                    Department: <hr>
-                    Matricule: <hr>
-                    Level: <hr>
-                    Date of issue: <hr>
-                    SeX: <hr>
+                    <form>
+                        Name:
+                        <input type=“text” name=“Name”>
+                        <br>
+                        Faculty/School:
+                        <input type=“text” name=“Faculty/school”>
+                        <br>
+                        Department:
+                        <input type=“text” name=“Department”>
+                        <br>
+                        Matricule:
+                        <input type=“text” name=“Matricule”>
+                        Level:
+                        <input type=“text” name=“Level”>
+                        <br>
+                        Date of Issue:
+                        <input type=“text” name=“Date”>
+                        Sex:
+                        <input type=“text” name=“sex”>
+                         <br>
+                        </form>
+                        
                 </form>
-                <p style="color: black; text-align: center;"><b>chief librarian</b></p>
+                <div class="lib">
+                    <hr style="margin-left: 25%; width: 50%;">
+                <p style="color: black; text-align: center"><b>chief librarian</b></p>
+                </div>
+                
             </div>
            
             
